@@ -1,0 +1,22 @@
+/*LLAMADO DE ETIQUETAS PARA AGREGARLES ESTILO*/
+/*TRES OPCIONES*/
+/*POR EL ELEMENTO --> P*/
+
+p{/*LLAMADO POR ELEMENTO O ETIQUETA*/
+    color: blueviolet;
+    font-size: 40px;
+}
+
+/*LLAMADO POR CLASE */
+.parrafo{
+    color: aqua;
+
+}
+
+/*LLAMADO POR ID*/
+/**/
+#parra2{
+    color: brown;
+    font-size: 50px;
+    animation: alternate;
+}

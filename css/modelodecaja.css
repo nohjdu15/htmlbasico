@@ -1,0 +1,12 @@
+* {/*el asterisco es un selector universal*/
+    box-sizing: border-box;/*ajusta y calcula automaticamente mi pagina, deacuerdo al tamaño de la pantalla evita el scroll*/
+    padding: 0;/*elimina el padding en toda la pagina*/
+    margin: 0;/*elimina el margin en toda la pagina*/
+}
+main {
+    width: 100%;/*ancho de pagina*/
+    height: 700px; /*alto de pagina*/
+    border: 15px solid brown;/*borde de pagina*/
+    padding: 20px 35px;/*primer digito(arriba y abajo) y segundo digito(derecha e izquierda)*/
+    /*border-radius: 20px;*/
+}

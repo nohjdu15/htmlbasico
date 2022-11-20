@@ -1,0 +1,27 @@
+.main-nav {
+    margin-top: 10px;
+    list-style: none;
+    padding-left: 100px;
+    background-color: rgb(38, 129, 129);
+}
+.main-nav__item{
+    display: inline-block;
+}
+.main-nav__item a{
+    color:aliceblue;/*color de letra*/
+    padding: 5px;/*borde*/
+    border-radius: 50px;/*esquinas redondeadas*/
+    text-decoration: none;/*quita el subrayado*/
+    /*background-color: darkorange;*/
+}
+.main-nav__item a:hover{/*cambia color con mouse encima*/
+    color:black;
+}
+.main-nav__item a:active{/*cambia color cuando se da click*/
+    color: chartreuse;
+}
+/*<---------------PSEUDOELEMENTOS-------------->*/
+/*LOS PSEUDO ELEMENTOS SE LLAMAN CON ::*/
+.main-nav__item a::after{
+    content: " || ";
+}
